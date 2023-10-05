@@ -1,0 +1,106 @@
+body {
+    color: #595c5b;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  
+.top-container
+{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+.top-cloud
+{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    
+    
+    
+}
+h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+h2{
+   
+        color: #66bfbf;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: 10px;
+      
+      
+}
+.bottom-cloud
+{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.middle-container
+{
+    margin: 100px 0px;
+}
+.mypic{
+    border-radius: 50%;
+}
+.intro
+{
+    width: 30%;
+    margin:0;
+}
+p
+{
+    line-height: 2;
+}
+hr {
+    border: dotted #eaf6f6 20px;
+    border-top: none;
+    width: 20%;
+    margin: 100px auto;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
+  h3{
+    font-weight: bold;
+  }
+  .btn
+  {
+    background-color: #11cdd4;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  }
+  .Bottom-Container
+  {
+    background-color: #66bfbf;
+    padding : 50px  0px 20px ;
+  }
+  .link
+  {
+    margin: 10px 20px;
+    color: #11999e;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
